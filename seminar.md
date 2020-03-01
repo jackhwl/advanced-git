@@ -15,6 +15,7 @@ cd test
 git status
 git init
 git status
+22
 
 git add .
 git commit 
@@ -26,5 +27,16 @@ working area: untracked files, not handled by git
 staging area: files are going to be part fo the next commit
                 how git knows what will change between the current commit and the next commit.
                 git add -p
-                1
+
+
 repository: contains all of your commits
+
+A branch is just a pointer to a particular commit
+the pointer of the current branch changes as new commits are made
+
+HEAD is how git knows what branch you're currently on, and what the next parent will be
+
+git checkout -b new_branch
+git checkout branch
+
+git tag my-first-commit

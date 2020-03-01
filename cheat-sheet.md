@@ -20,5 +20,10 @@ git log -n 1;
 git checkout master 
 git branch v2 sha1   
 
+git stash --include-untracked
+git stash --all
 
+annotated tags:
+git tag -a v1.0 -m "version 1.0 of my blog"
 
+git rerere
