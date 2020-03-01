@@ -6,6 +6,7 @@ The accompanying exercises for [Nina Zakharenko's](https://twitter.com/nnja) [Gi
 
 [Watch the Course here](https://frontendmasters.com/courses/git-in-depth/).
 
+
 ## Resources
 
 All of the resources you need for class are located in this repository.
