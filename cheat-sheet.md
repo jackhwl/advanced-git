@@ -27,3 +27,6 @@ annotated tags:
 git tag -a v1.0 -m "version 1.0 of my blog"
 
 git rerere
+git log --since="5 days ago"
+
+git show

@@ -6,8 +6,13 @@ git reset HEAD file
 git reset HEAD .
 git commit -m
 
+git commit -a --allow-empty-message -m ""
+
 1. setup env
-git config --global
+git config --global user.name
+git config --global user.email
+git config --global core.editor
+git config --global core.editor "'C:\Program Files (x86)\Notepad++\notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
 
 2. commit
 md test
@@ -15,7 +20,6 @@ cd test
 git status
 git init
 git status
-22
 
 git add .
 git commit 
@@ -24,7 +28,7 @@ git branch new_branch
 
 3. working area, staging area (cache index), repo
 working area: untracked files, not handled by git
-staging area: files are going to be part fo the next commit
+staging area: files are going to be part for the next commit
                 how git knows what will change between the current commit and the next commit.
                 git add -p
 
@@ -40,3 +44,5 @@ git checkout -b new_branch
 git checkout branch
 
 git tag my-first-commit
+
+git checkout -- file
