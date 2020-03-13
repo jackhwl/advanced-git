@@ -46,3 +46,16 @@ git checkout branch
 git tag my-first-commit
 
 git checkout -- file
+
+
+
+# Branch
+Branching in Git is very powerful but can be overwhelming at the same time. 
+Git branches are effectively a pointer to a snapshot of your changes.
+
+Branching is a core concept in Git. There's only one rule: anything in the master branch is always deployable.
+git branch -l
+
+create branch:
+git branch newBranchName
+git checkout -b newBranchName
