@@ -59,3 +59,5 @@ git branch -l
 create branch:
 git branch newBranchName
 git checkout -b newBranchName
+
+git config --global alias.lga "log --graph --oneline --all --decorate"
